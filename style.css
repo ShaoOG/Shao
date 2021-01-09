@@ -1,0 +1,50 @@
+
+body{
+    background-color: rebeccapurple
+}
+h1{
+    color: orange;
+    margin-left: 500px;
+    border: 2px;
+    padding: 7px;
+}
+
+p{
+    margin-left: 50px;
+    color: orange;
+}
+
+button{
+    margin-left: 33px;
+    color:seagreen;
+    padding: 5px;
+    
+}
+
+input{
+    margin-left: 33px;
+    height: 2vh;
+    justify-content: space-around;
+}
+onsubmit{
+    padding 5px;
+}
+
+button.submit{
+    color: purple;
+    font-weight: bold;
+}
+
+ol{
+    font-weight: bold;
+}
+
+button.submit1{
+    color: black;
+    padding: 3px;
+    font-weight: bolder;
+}
+button.submit2{
+    color:black;
+    font-size: 20px;
+}
