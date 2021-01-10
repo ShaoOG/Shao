@@ -1,6 +1,6 @@
 
 body{
-    background-color: rebeccapurple
+    background-color: rgb(255, 255, 255)
 }
 h1{
     color: orange;
@@ -12,13 +12,45 @@ h1{
 p{
     margin-left: 50px;
     color: orange;
+    font-weight: bolder;
 }
 
-button{
+#submit{
     margin-left: 33px;
-    color:seagreen;
+    color:rgb(0, 0, 0);
     padding: 5px;
     
+}
+#submit2{
+    color: black;
+    padding:5px;
+    padding: 10px;
+    border: 5px solid;
+    border-top-color: rgb(245, 143, 9);
+    border-bottom-color: rgb(253, 0, 68);
+    border-left-color: rgb(5, 13, 248);
+    border-right-color: rgb(3, 255, 3);
+    font-weight: bold;
+}
+#preferinta{
+    margin-left: 33px;
+    color:rgb(46, 57, 139);
+    padding: 5px;
+    font-weight: bold;
+    
+}
+#preferinta:hover{
+    background-color: orange;
+}
+
+#submit:hover{
+    background-color: rgb(219, 198, 39);
+    font-weight:bold;
+}
+
+#submit2:hover{
+    background-color: rgb(30, 191, 240);
+    font-weight:bold;
 }
 
 input{
@@ -47,4 +79,16 @@ button.submit1{
 button.submit2{
     color:black;
     font-size: 20px;
+}
+
+.child > h3{
+    color: rgb(230, 18, 92);
+}
+
+#ex  .exx{
+    color:rgb(30, 191, 240);
+}
+
+#ex1 > .exx1{
+    color:rgb(30, 191, 240);
 }
