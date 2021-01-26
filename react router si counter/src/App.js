@@ -4,7 +4,8 @@ import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import Home from "./Router/Home";
 import About from "./Router/About";
 import Login from "./Router/Login";
-import ToDo from "./Router/ToDo";
+import Todo from "./Router/Todo";
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
@@ -30,8 +31,8 @@ function App() {
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/login" component={Login} />
-          <Route path="/todo" component={ToDo} />
-          <Route path="/" component={Home} />
+          <Route path="/todo" component={Todo} />
+          <Route path="/home" component={Home} />
         </Switch>
       </div>
     </Router>
