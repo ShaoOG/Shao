@@ -23,7 +23,7 @@ function App() {
               <Link to="/login">Login</Link>
             </li>
             <li>
-              <Link to="/todo">ToDo</Link>
+              <Link to="/todo">Todo</Link>
             </li>
           </ul>
         </nav>
